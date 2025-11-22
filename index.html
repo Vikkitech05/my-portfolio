@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Victor — Frontend Developer | Vikkitech</title>
+  <link rel="stylesheet" href="styles/portfolio.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script src="javascript/portfolio.js" defer></script>
+</head>
+<body>
+  <div class="site">
+    <header class="topbar">
+      <div class="brand">
+        <a href="#hero">Vikkitech</a>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main class="container">
+      <!-- HERO -->
+      <section id="hero" class="hero">
+        <div class="hero-left">
+          <h1 class="name">Vikkitech</h1>
+          <p class="title">Front-End Developer • Web3 Explorer • AI Enthusiast</p>
+          <p class="lead">I build clean, responsive interfaces and explore decentralized & AI-driven user experiences.</p>
+
+          <div class="cta">
+            <a class="btn primary" href="#contact">Hire Me</a>
+            <a class="btn outline" href="#projects">View Projects</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-num">2+</div>
+              <div class="stat-label">Years experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">5+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">Web3</div>
+              <div class="stat-label">Cardano, Masumi, Storacha</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img class="avatar" src="profiles/my new avatar.jpg">
+        </div>
+      </section>
+
+      <!-- ABOUT + SKILLS -->
+      <section class="split" id="about">
+        <div class="col" id="about-left">
+          <h2>About Me</h2>
+          <p>I'm Victor a front-end developer focused on user experience and accessible interfaces. I combine my engineering background with modern web tooling to deliver reliable, maintainable sites. Currently leveling up in Web3 & AI.</p>
+
+          <h3 style="margin-top:22px">Services</h3>
+          <ul class="services">
+            <li>Website Design & Development</li>
+            <li>UI/UX & Responsive Layouts</li>
+            <li>Web3 Website Integration & Basic dApp UI</li>
+            <li>AI feature integration (concepts & frontend)</li>
+          </ul>
+        </div>
+
+        <div class="col" id="skills">
+          <h2>Skills</h2>
+          <div class="skills">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React (learning)</span>
+            <span>Tailwind (learning)</span><span>GitHub</span><span>Figma</span>
+          </div>
+
+          <h2 style="margin-top:28px;">Timeline Preview</h2>
+          <ul class="timeline-preview">
+            <li><strong>2024</strong> — First real projects & community joins</li>
+            <li><strong>2024–2025</strong> — Web3: Cardano, Masumi, Storacha</li>
+            <li><strong>2025</strong> — Masumi hackathon & VIKKITECH growth</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <!-- Project A -->
+          <article class="project">
+            <div class="thumb">
+              <img src="https://vikkitech.vercel.app/og-image.png" alt="vikkitech preview" onerror="this.style.display='none'">
+              <div class="thumb-fallback"><img src="thumbnails/VTEECH.png"></div>
+            </div>
+            <div class="project-body">
+              <h3>Vikkitech (Portfolio / Demo)</h3>
+              <p>My personal portfolio and demo site — showcases my projects, timeline and contact. Hosted on Vercel.</p>
+              <div class="links">
+                <a class="link" href="https://vikkitech.vercel.app/" target="_blank" rel="noopener">Visit site</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project B -->
+          <article class="project">
+            <div class="thumb">
+              <img src="https://wildfoxnft.vercel.app/og-image.png" alt="wildfox preview" onerror="this.style.display='none'">
+              <div class="thumb-fallback"><img src="thumbnails/wildfox.png"></div>
+            </div>
+            <div class="project-body">
+              <h3>WildFox NFT</h3>
+              <p>NFT landing and gallery UI focused on clean visuals and responsive card layouts.</p>
+              <div class="links">
+                <a class="link" href="https://wildfoxnft.vercel.app/" target="_blank" rel="noopener">Visit site</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project C -->
+          <article class="project">
+            <div class="thumb">
+              <img src="https://spacelabz-project.vercel.app/og-image.png" alt="spacelabz preview" onerror="this.style.display='none'">
+              <div class="thumb-fallback"><img src="thumbnails/spacelab.png"></div>
+            </div>
+            <div class="project-body">
+              <h3>SpaceLabz Project</h3>
+              <p>Experimental UI for Web3 tooling and interactive components; responsive and accessible layout.</p>
+              <div class="links">
+                <a class="link" href="https://spacelabz-project.vercel.app/" target="_blank" rel="noopener">Visit site</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project D -->
+          <article class="project">
+            <div class="thumb">
+              <img src="https://solrain.vercel.app/og-image.png" alt="solrain preview" onerror="this.style.display='none'">
+              <div class="thumb-fallback"><img src="thumbnails/SOLRAIN.png"></div>
+            </div>
+            <div class="project-body">
+              <h3>SolRain</h3>
+              <p>Modern, minimal landing and feature UI for blockchain-related project — built with responsive components.</p>
+              <div class="links">
+                <a class="link" href="https://solrain.vercel.app/" target="_blank" rel="noopener">Visit site</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- FULL TIMELINE / JOURNEY (moved outside) -->
+      <section id="timeline" class="timeline-section">
+        <h2>Journey & Highlights</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-year">2022</div>
+            <div class="tl-body">
+              <h3>First Steps Into Tech</h3>
+              <p>Began learning fundamentals of computers, the internet and basic digital tools. Started exploring design and problem solving.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-year">2023</div>
+            <div class="tl-body">
+              <h3>Engineering Foundation</h3>
+              <p>Studied Civil / Structural Engineering — developed strong analytical & mathematical skills that supported my development journey.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-year">2024 (Early)</div>
+            <div class="tl-body">
+              <h3>Web Development Begins</h3>
+              <p>Learned HTML & CSS; built responsive layouts and UI clones to practice structure and design fundamentals.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-year">2024 (Mid)</div>
+            <div class="tl-body">
+              <h3>First Real Projects</h3>
+              <p>Completed several practice websites including a YouTube UI clone, landing pages and portfolio drafts.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-year">2024 (Late)</div>
+            <div class="tl-body">
+              <h3>Joined Web3 Communities</h3>
+              <p>Started participating in <strong>Cardano</strong>, <strong>Masumi</strong> and <strong>Storacha</strong> communities — learning blockchain basics and decentralization.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-year">2024</div>
+            <div class="tl-body">
+              <h3>AI & Automation</h3>
+              <p>Explored AI agents and automation workflows; began integrating AI concepts with Web development experiments.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-year">2025</div>
+            <div class="tl-body">
+              <h3>Masumi Hackathon & Growth</h3>
+              <p>Participated in the Masumi hackathon — built ideas around AI agents and blockchain automations; continued building and sharing projects.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-year">2025</div>
+            <div class="tl-body">
+              <h3>VIKKITECH Brand & Job Hunt</h3>
+              <p>Launched VIKKITECH to document my journey. Began applying to Web3 roles (moderation, content, UI/UX, dev work) while expanding full-stack skills.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <div class="contact-grid">
+
+    <form id="contactForm" class="contact-form"
+      action="https://formsubmit.co/ajileyevictor05@gmail.com" method="POST">
+
+      <input type="hidden" name="_next" value="https://vikkitech05.github.io/my-first-project/?success=true">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New message from Vikkitech portfolio">
+
+      <label>
+        <span class="label">Name</span>
+        <input type="text" name="name" required>
+      </label>
+
+      <label>
+        <span class="label">Email</span>
+        <input type="email" name="email" required>
+      </label>
+
+      <label>
+        <span class="label">Message</span>
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+
+      <button class="btn primary" type="submit">Send Message</button>
+
+      
+    </form>
+
+    <!-- CONTACT INFO WITH ICONS -->
+    <aside class="contact-info">
+      <h3>Reach me directly</h3>
+
+      <div class="social-icons">
+
+        <a href="https://t.me/V_Teech" target="_blank" rel="noopener" class="icon">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" alt="Telegram">
+        </a>
+
+        <a href="https://x.com/v_teech?s=21" target="_blank" rel="noopener" class="icon">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" alt="X">
+        </a>
+
+        <a href="https://www.linkedin.com/in/vikkitech" target="_blank" rel="noopener" class="icon">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+
+        <a href="https://github.com/Vikkitech05" target="_blank" rel="noopener" class="icon">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+        </a>
+
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+</main>
+</body>
+</html>
